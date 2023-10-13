@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>   
+<style type="text/css">
+	.outerbox{
+		border: 2px solid black;
+		margin: 20px;
+		padding:20px ;
+
+	}
+	.insidebox{
+		border: 2px solid darkblue;
+		padding: 10px;
+		margin: 10px;
+		background: pink;
+	}
+
+      .outsidebox{
+      	border: 1px solid black;
+        padding: 90px;
+
+      }
+
+      .innerbox{
+      	border: 10px solid green;
+      	margin: 30px;
+      	padding: 80px;
+      	background: darkgray;
+      	width: 30px; height: 100px;
+      	overflow-y:scroll ;
+      	
+
+      }
+</style>
+</head>
+<body>
+<div class="outerbox">
+	<div class="insidebox">
+		<p>Contact area</p>
+	</div>
+</div>
+
+<div class="outsidebox">
+	<div class="innerbox">
+		<img src="aussie.jpg">
+		<p>paragraph inside the inner box. You can use the overflow property when you have to better control of the layout. The overflow property specifies whtat happens if content overflows an element's box.</p>
+	</div>
+</div>
+
+</body>
+</html>
